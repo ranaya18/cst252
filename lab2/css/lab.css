@@ -1,0 +1,31 @@
+body {
+     font-family: "Prata";
+     background-color: #c7d3d6;
+     padding: 25px;
+     font-size: 1.5vw;
+ }
+
+ h1 {
+   color: #D46242;
+   font-size: 70px;
+   text-align: center;
+ }
+
+ h2 , h3 {
+   color: #D46242;
+   font-size: 1.75vw;
+ }
+
+ p {
+   text-indent: 20px;
+   margin-left: 10px;
+ }
+
+ div#content {
+     padding: 8px;
+     background-color: lightgrey;
+     border: ridge 15px grey;
+     outline-style: solid;
+     outline-color: invert;
+     height: 100%;
+ }
