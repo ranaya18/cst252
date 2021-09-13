@@ -5,69 +5,13 @@ body {
      font-size: 22px;
  }
 
- aside {
-   width:300px;
-   max-width: 300px;
-   padding-left: 15px;
-   margin-left: 15px;
-   float: right;
-   font-style: italic;
-   background-color: darkgray;
- }
-
  div#content {
      padding: 8px;
      background-color: lightgrey;
-     border: ridge 15px #D46242;
+     border: ridge 15px white;
      outline-style: solid;
      outline-color: invert;
      height: 80vh;
- }
-
- h1, h2, h3, h4 {
-     font-family: "Cinzel Decorative";
-
- }
-
-img {
-     float: right;
-     width: 150px;
-     height: 150px;
-     border: solid 1px black;
-     clear: right;
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
- }
-
- .center {
-   height: 200px;
-   position: relative;
-
- }
-
- .center p {
-   margin: 0;
-   position: absolute;
-   top: 50%;
-   left:50%;
-   -ms-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
- }
-
- .floated {
-   height: 200px;
-   position: relative;
-
- }
-
- .floated p {
-   margin: 0;
-   position: absolute;
-   top: 50%;
-   left:50%;
-   -ms-transform: translate(-50%, -50%);
-   transform: translate(-50%, -50%);
  }
 
  a:link{

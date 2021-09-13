@@ -5,6 +5,13 @@
 // @author AuthorName.
 // @since  x.x.x
 
+/*
+* Author: Raeann Anaya raanaya@csumb.edu>
+* Created: 12 September
+* License: Public Domain
+*/
+
+
 //Make the board before every game
   //Loop through every letter in the name
     // Write correct letter on space
