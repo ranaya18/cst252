@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html
+  <head>
+    <title>Lab 8: Anon Functions and Callbacks</title>
+    <link rel="stylesheet" type="text/css" href="css/lab.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Glory">
+    <script src="js/lab.js"></script>
+  </head>
+  <body>
+
+    <div id="content">
+
+      <h1>Lab 8: Anon Functions and Callbacks</h1>
+      <p>Experimenting with anonymous functions and callbacks with a partner.</p>
+
+      <h3>Challenges</h3>
+      <p>I did not face any challenges with this lab.</p>
+
+      <h3>Problems</h3>
+      <p>I experienced no problems with this lab.</p>
+
+      <h3>Results</h3>
+      <p>I chose to do a clock in my code and it came out successful and the stop 
+      button was successful as well.</p>
+
+      <p id="demo"></p>
+
+        <button onclick="clearInterval(myVar)">Stop time</button>
+
+        <script>
+        let myVar = setInterval(myTimer ,1000);
+        function myTimer() {
+          const d = new Date();
+          document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+        }
+        </script>
+
+      <nav>
+         <ul>
+           <li><a href="../index.html">CST252 Homepage</a></li>
+         </nav>
+
+      </div>
+
+  </body>
+</html>
