@@ -5,17 +5,22 @@
 * License: Public Domain
 */
 
-var oneEl = document.createElementById("outputEl");
+document.getElementById("outputEl");
 
-var twoEl = document.createElement("div");
-twoEl.style.color = "red";
+var oneEl = document.createElement("button")
 
-onnEl.appendChild(twoEl);
+var twoEl = document.createElement("button")
 
-var buttonElement = document.createElement("div")
+oneEl.innerText = "Press Me!";
 
-buttonElement.id = "button"
+twoEl.innerText = "Click Me!";
 
-buttonElement.innerHTML = "Press Me!";
+oneEl.style.color = "green";
 
-document.body.appendChild(buttonElement);
+twoEl.style.backgroundColor = "orange";
+
+document.getElementById("outputEl").appendChild(oneEl);
+
+document.getElementById("outputEl").appendChild(twoEl);
+
+document.getElementById("h1").style.color = "olive";
