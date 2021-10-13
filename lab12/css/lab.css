@@ -14,7 +14,25 @@ body {
      border: ridge 15px white;
      outline-style: solid;
      outline-color: invert;
-     height: auto;
+     height: 100%;
+ }
+
+ #btn-red {
+   background-color: red;
+   color: white;
+ }
+
+ #btn-green {
+   background-color: green;
+   color: white;
+ }
+
+ .red-text {
+   color: red;
+ }
+
+ .green-text{
+   color: green;
  }
 
  a:link{
