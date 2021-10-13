@@ -27,12 +27,21 @@ body {
    color: white;
  }
 
+ #btn-blue {
+   background-color: blue;
+   color: white;
+ }
+
  .red-text {
    color: red;
  }
 
  .green-text{
    color: green;
+ }
+
+ .blue-text{
+   color: blue;
  }
 
  a:link{

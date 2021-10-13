@@ -6,11 +6,13 @@
 */
 
 $("#btn-red").click(function() {
-  $("#content").removeClass("green-text"),
   $("#content").toggleClass("red-text")
 });
 
 $("#btn-green").click(function(){
-  $("#content").removeClass("redr-text"),
   $("#content").toggleClass("green-text")
+});
+
+$("#btn-blue").click(function(){
+  $("#content").toggleClass("blue-text")
 });
