@@ -1,5 +1,5 @@
 /*
-* lab14.js - Advanced jQUery
+* lab14.js - Loops
 * Author: Raeann Anaya raanaya@csumb.edu>
 * Created: 20 October
 * License: Public Domain
