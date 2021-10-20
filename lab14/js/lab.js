@@ -1,7 +1,7 @@
 /*
-* lab11\4.js - Advanced jQUery
+* lab14.js - Advanced jQUery
 * Author: Raeann Anaya raanaya@csumb.edu>
-* Created:  October
+* Created: 20 October
 * License: Public Domain
 */
 

@@ -4,9 +4,6 @@ body {
      padding: 25px;
      font-size: 22px;
  }
-  img {
-    float: right;
-  }
 
  div#content {
      padding: 8px;
@@ -16,6 +13,47 @@ body {
      outline-color: invert;
      height: auto;
  }
+
+inout[type = "number"] {
+  width: 60px;
+}
+
+inout[type = "text"] {
+  width: 100px;
+}
+
+input#max {
+  width: 20px;
+}
+
+table {
+  padding: 20px;
+}
+
+input, button {
+  font-size: 90%;
+}
+
+div#input, div#putput {
+ border: sold 1px;
+ padding: 20px;
+}
+
+#output p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#output.cols{
+  -webkit-column-width: 200px;
+  -moz-column-width: 200px;
+  column-width: 200px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
 
  a:link{
      background-color: auto;
