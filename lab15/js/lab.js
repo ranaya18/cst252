@@ -1,8 +1,6 @@
 /*
-* lab11\3.js - Conditonals
+* lab15.js - Basic Debugging
 * Author: Raeann Anaya raanaya@csumb.edu>
-* Created: 18 October
+* Created: 27 October
 * License: Public Domain
 */
-
- 
