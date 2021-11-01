@@ -18,4 +18,4 @@ function Vehicle(newmake, newmodel, newyear, newcolor){
 var car = new Vehicle("Mini", "Cooper", 2013, "baby blue");
 
 
-$("#output").append("<p>" + car.info() + "</p>");
+$("#output").append("<p>" + car.info() + "</p>")
