@@ -12,7 +12,7 @@ class Vehicle {
   this.year = year;
   this.color = color;
 }
-info( ){
+info(){
     return "Make: " + this.make +
            ", Model: " + this.model +
            ", Year: " + this.year +
