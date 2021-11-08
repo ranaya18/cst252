@@ -1,3 +1,10 @@
+body {
+     font-family: "Glory";
+     background-color: #d1cec3;
+     padding: 25px;
+     font-size: 22px;
+ }
+
 .header {
   padding: 15px;
   background-color: #ddd8b4;
@@ -14,4 +21,11 @@
 .col-sm-4 {
   width: 33.33%;
   text-align: center;
+}
+
+.footer {
+  padding: 28px;
+  text-align: center;
+  background-color:  #ffcd85;
+  font-size: 20px;
 }
