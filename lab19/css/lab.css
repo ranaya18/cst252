@@ -1,1 +1,35 @@
+body {
+     font-family: "Glory";
+     background-color: black;
+     padding: 25px;
+     font-size: 22px;
+ }
+  img {
+    float: right;
+  }
 
+ div#output{
+     padding: 8px;
+     background-color: lightgrey;
+     border: ridge 15px white;
+     outline-style: solid;
+     outline-color: invert;
+     height: 100%;
+ }
+
+ a:link{
+     background-color: auto;
+ }
+
+ a:visited {
+   background-color: black;
+ }
+
+ a:hover {
+     text-decoration: underline;
+     background-color: #837A99;
+ }
+
+ a:active {
+   background-color: black;
+ }
