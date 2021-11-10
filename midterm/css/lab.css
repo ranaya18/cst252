@@ -291,6 +291,7 @@ button {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
+  padding-top: 100px;
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -306,8 +307,9 @@ button {
 
 /* Modal Content */
 .modal-content {
-  position: fixed;
+  position: relative;
   bottom: 0;
+  margin: auto;
   background-color: #fefefe;
   width: 100%;
   -webkit-animation-name: slideIn;
