@@ -2,20 +2,33 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/lab.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Glory">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="js/lab.js" defer></script>
     </head>
     <title></title>
   </head>
   <body>
-        <div class="about-section">
-          <h1>Midterm</h1>
-        </div>
     <main>
+      <div class="header">
+        <h1 class="glow">Astronomy</h1>
+      </div>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">Compatibility</a>
+            <a href="#contact">Horoscopes</a>
+            <a href="#about">About</a>
+          </div>
         <h2 style="text-align:center">What Sign Are You?</h2>
         <div class="row">
           <div class="column">
             <div class="card">
+              <defs>
+                  <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+                  </linearGradient>
+                </defs>
               <img src="img/aries.png" alt="Jane" style="width:100%">
               <div class="container">
                 <h2>Aries</h2>
@@ -156,3 +169,36 @@
         <h2>Footer</h2>
       </div>
     </body>
+
+    <section class="container">
+       <!-- title -->
+       <div class="title">
+         <h2>our reviews</h2>
+         <div class="underline"></div>
+       </div>
+       <!-- review -->
+       <article class="review">
+         <div class="img-container">
+           <img src="constellation-1.jpeg" id="constellation-img" alt="" />
+         </div>
+         <h4 id="author">(insert constellation name here)</h4>
+         <p id="classification">(insert nickname or classification here)</p>
+         <p id="info">
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+           asperiores debitis incidunt, eius earum ipsam cupiditate libero?
+           Iste, doloremque nihil?
+         </p>
+         <!-- prev next buttons-->
+         <div class="button-container">
+           <button class="prev-btn">
+             <i class="fas fa-chevron-left"></i>
+           </button>
+           <button class="next-btn">
+             <i class="fas fa-chevron-right"></i>
+           </button>
+         </div>
+         <!-- random button -->
+         <button class="random-btn">surprise me</button>
+       </article>
+     </section>
+ </body>
