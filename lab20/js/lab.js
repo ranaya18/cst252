@@ -4,12 +4,6 @@
 * Created: 29 November
 * License: Public Domain
 */
-
-// Comment block here
-// Author:
-// Date:
-
-
 var URL = "https://xkcd.com/info.0.json";
 
 var URLpre = "https://xkcd.com/";

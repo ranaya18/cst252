@@ -4,11 +4,8 @@ body {
      padding: 25px;
      font-size: 22px;
  }
-  img {
-    float: right;
-  }
 
- div#output{
+ div#content{
      padding: 8px;
      background-color: lightgrey;
      border: ridge 15px white;
@@ -33,3 +30,14 @@ body {
  a:active {
    background-color: black;
  }
+
+ main img {
+  width: inherit !important;
+  max-width: 100%;
+}
+
+#output {
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+}
